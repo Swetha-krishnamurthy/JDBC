@@ -1,0 +1,45 @@
+
+// A java program to perform CRUD (CREATE,READ,UPDATE,DELETE) operations using JDBC.
+
+Step 1 : import the necessary packages.
+         java.sql.Connection;
+         java.sql.DriverManager;
+         java.sql.SQLException;
+         java.sql.Statement;
+Step 2 : Setup a connection.
+Step 3 : Execute the query.
+
+  // Query to create a table
+
+  String query = CREATE TABLE STUDENT ("
+  + "ID INT NOT NULL,"
+  + "NAME VARCHAR(20) NOT NULL,"
+  + "MARKS INT NOT NULL,";
+
+// Query to perform Read operation in hashmap list
+
+HashMap<String, Integer> hashMap = new HashMap<>();   //create a HashMap
+hashMap.put("ID", 1001);                              //adding key values to HashMap
+hashMap.put("Name", bob);
+hashMap.put("Marks",95);
+Integer value = hashMap.get("ID");                    //get the value
+String value = hashMap.get("Name");
+String value = hashMap.get("Marks");             
+
+// Query to Update statement
+
+String query = " UPDATE STUDENT "
+  + "MARKS = 98" 
+  + WHERE ID = 1001";
+
+//Query to delete statement
+ String query = " DELETE STUDENT "
+   + "WHERE ID = 1";
+  
+
+
+  
+
+
+  
+  
